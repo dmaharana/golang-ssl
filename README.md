@@ -5,4 +5,5 @@
 ## Command to Create SSL Certificate
 `$ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./nginx.key -out ./nginx.crt`
 
-
+### Commands to work with pfx certificate format
+[Converting pfx to pem using openssl](https://stackoverflow.com/questions/15413646/converting-pfx-to-pem-using-openssl)
